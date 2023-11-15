@@ -1,0 +1,21 @@
+html {
+  background: #f8f9fa;
+  color: #040405;
+  font-size: medium;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0fcbf0;
+  color: #ffffff;
+}
